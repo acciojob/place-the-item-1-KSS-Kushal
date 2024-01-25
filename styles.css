@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+
+.holder{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.item{
+	width: 100px;
+	height:100px;
+	background-color: green;
+	font-size: 40px;
+	font-weight: 600;
+}
+#box1{
+	background-color: red;
+	order:1;
+}
+#box2{
+	background-color: blue;
+	order:2;
+}
